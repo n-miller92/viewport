@@ -176,7 +176,8 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    /* header, footer{
+@media screen and (min-width: 600px){
+    header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
@@ -201,9 +202,9 @@ img{
     img{
         width: 200px;
         max-width: 200px;
-    } */
+    }
 /* --------------- END SMALL SCREEN SIZES --------------- */
-
+}
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
